@@ -1,0 +1,23 @@
+{
+  "name": "caffeine_shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "nodemon src/app.js -e js,ejs,json,mjs,html,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denise-E/Caffeine-Shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denise-E/Caffeine-Shop/issues"
+  },
+  "homepage": "https://github.com/Denise-E/Caffeine-Shop#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
