@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Denise-E/Caffeine-Shop#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6"
   }
 }
