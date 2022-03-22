@@ -4,20 +4,20 @@ module.exports = {
      
         styles: "home"
     }),
-    contact: (req,res) => res.render("contact",{
+    contact: (req,res) => res.render("headerLinks/contact",{
      
-        styles: "contact"
+        styles: "headerLinks/contact"
     }),
-    payment: (req,res) => res.render("payment",{
+    payment: (req,res) => res.render("footerLinks/payment",{
      
-        styles: "payment"
+        styles: "footerLinks/payment"
     }),
-    return: (req,res) => res.render("return",{
+    return: (req,res) => res.render("footerLinks/return",{
      
-        styles: "return"
+        styles: "footerLinks/return"
     }),
-    shipments: (req,res) => res.render("shipments",{
+    shipments: (req,res) => res.render("footerLinks/shipments",{
      
-        styles: "shipments"
+        styles: "footerLinks/shipments"
     })
 }

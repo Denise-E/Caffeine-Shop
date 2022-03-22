@@ -1,9 +1,9 @@
 
 module.exports = {
-    coffee: (req, res) => res.render('coffee',{
-        styles: [coffee]
+    coffee: (req, res) => res.render('headerLinks/coffee',{
+        styles: ['headerLinks/coffee']
     }),
-    accesories: (req, res) => res.render('accesories',{
-        styles: [accesories]
+    accesories: (req, res) => res.render('headerLinks/accesories',{
+        styles: ['headerLinks/accesories']
     })
 }
