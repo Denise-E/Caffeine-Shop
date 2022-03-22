@@ -13,3 +13,7 @@ app.set('views', path.resolve(__dirname, 'views'));
 
 
 app.use(express.static(path.resolve(__dirname, "../public")));
+
+app.use(require('./routes/main'));
+app.use('/users', require('./routes/users'));
+app.use('/products', require('./routes/products'));
