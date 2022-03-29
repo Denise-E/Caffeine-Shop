@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    font-size: 16px;
+    color: #70281C;
+}
+
+#logoFooter{
+    width: 10rem;
+    height: 7rem;
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footerCopyright{
+    display: block;
+    text-align: center;
+    margin-right: 5.5rem;
+}
+
+div a {
+    display: block;
+    text-decoration: none;
+    color: #70281C;
+    margin: 1.5rem;
+}
