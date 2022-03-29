@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#topHome {
+    text-align: center;
+}
+
+
+#topHome h2{
+    padding-top: 2rem;
+}
+
+#topHome p{
+    padding: 2rem;
+}
+
+#bottomHome{
+    display: flex;
+    flex-direction: column; 
+}
+
+#bottomHome img{
+    width: 70%;
+    height: 15rem;
+    border-radius: 28px;
+    padding: 1rem;
+    align-self: center;
+}
+
+#bottomHome a{
+    text-decoration: none;
+}
+

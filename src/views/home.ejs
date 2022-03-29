@@ -1,13 +1,32 @@
 <%- include("./partials/head")  %> 
+<link rel="stylesheet" href="/css/main/home.css">
 
 <body>
     <%- include("./partials/header")  %> 
     <main>
-        <section>
-            <img src="../assets/banner-cafe.png" alt="Banner" width="100%">
-            <h6>Bienvenido a Caffeine Shop 'nombreDeUsuaio' !</h6>
+        <section id="topHome">
+            <img src="../assets/home/banner-cafe.png" alt="Banner" width="100%">
+            <h2>Bienvenido a Caffeine Shop 'nombreDeUsuaio' !</h2>
+            <p>
+                Esta pagina creada por amantes del café busca ayudarte a encontrar todo lo necesario para que puedas disfrutar 
+                de los mejores cafés desde la comodidad de tu casa. 
+            </p>
         </section>
-        <section>
+    
+        <section id="bottomHome">
+            <a href="/products/coffee">
+                <article>
+                        <img src="../assets/home/home-coffee.jpg" alt="Nuestros cafés">
+                        <input type="button" value="Nuestros cafés">
+                </article> 
+            </a>
+            <a href="/products/accesories">
+                <article>
+                        <img src="../assets/home/home-accesories.jpg" alt="Accesorios">
+                        <input type="button" value="Accesorios">
+                </article> 
+            </a>
+        </section>
         </section>
     </main>
 

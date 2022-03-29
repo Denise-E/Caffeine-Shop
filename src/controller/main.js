@@ -2,7 +2,7 @@
 module.exports = {
     index: (req,res) => res.render("home",{
      
-        styles: "home"
+        styles: "main/home"
     }),
     contact: (req,res) => res.render("headerLinks/contact",{
      
