@@ -4,10 +4,13 @@
     margin: 0;
 }
 
+#homeBanner{
+    height: 10rem;
+}
+
 #topHome {
     text-align: center;
 }
-
 
 #topHome h2{
     padding-top: 2rem;
@@ -17,20 +20,18 @@
     padding: 2rem;
 }
 
-#bottomHome{
-    display: flex;
-    flex-direction: column; 
-}
-
 #bottomHome img{
-    width: 70%;
-    height: 15rem;
+    width: 90%;
+    height: 8rem;
     border-radius: 28px;
     padding: 1rem;
-    align-self: center;
 }
 
 #bottomHome a{
     text-decoration: none;
+}
+
+#bottomHome input{
+    display: block;
 }
 
