@@ -5,13 +5,12 @@
 }
 
 footer{
-    font-size: 16px;
+    font-size: 14px;
     color: #70281C;
 }
 
 #logoFooter{
-    width: 10rem;
-    height: 7rem;
+    display: none;
 }
 
 footer nav {
@@ -25,7 +24,6 @@ footer nav {
 #footerCopyright{
     display: block;
     text-align: center;
-    margin-right: 5.5rem;
 }
 
 div a {
@@ -33,4 +31,17 @@ div a {
     text-decoration: none;
     color: #70281C;
     margin: 1.5rem;
+}
+
+@media screen and (min-width: 461px) {
+    #logoFooter{
+        display: flex;
+        width: 10rem;
+        height: 7rem;
+        margin-left: 1.7rem;
+    }   
+    #footerCopyright{
+      padding-top: 1rem;
+      margin-right: 3.2rem;
+    }
 }
