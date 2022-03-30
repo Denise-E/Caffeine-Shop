@@ -24,8 +24,8 @@
     color: #70281C;
 }
 
-input #userId, input #password{
-    width: 90%;
+#userId, #password{
+    width: 70%;
     padding: 0.25rem;
     border-radius: 8px;
     border: 1px solid #9e6b62;
@@ -33,17 +33,13 @@ input #userId, input #password{
 
 
 @media screen and (min-width: 581px) {
-    input #userId, input #password{
+    #userId, #password{
         width: 70%;
-        padding: 0.5rem;
     }
 }
 
 @media screen and (min-width: 768px) {
-    input #userId{
+    #userId, #password{
         width: 50%;
-    }
-    input #password{
-        border: solid 2px blue;
     }
 }
