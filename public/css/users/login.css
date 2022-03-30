@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#loginForm{
+    text-align: center;
+    margin: 1rem 1rem 3rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+#loginForm fieldset{
+    border: none;
+}
+
+#loginForm label {
+    display: block;
+    padding: 1rem;
+    color: #70281C;
+}
+
+input #userId, input #password{
+    width: 90%;
+    padding: 0.25rem;
+    border-radius: 8px;
+    border: 1px solid #9e6b62;
+}
+
+
+@media screen and (min-width: 581px) {
+    input #userId, input #password{
+        width: 70%;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    input #userId{
+        width: 50%;
+    }
+    input #password{
+        border: solid 2px blue;
+    }
+}
