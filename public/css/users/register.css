@@ -7,6 +7,10 @@
 #registerForm{
     text-align: center;
     margin: 1rem 1rem 3rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #registerForm fieldset{
@@ -16,5 +20,26 @@
 #registerForm label {
     display: block;
     padding: 1rem;
+    color: #70281C;
 }
 
+#registerForm input{
+    width: 90%;
+    padding: 0.25rem;
+    border-radius: 8px;
+    border: 1px solid #9e6b62;
+}
+
+
+@media screen and (min-width: 581px) {
+    #registerForm input{
+        width: 70%;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #registerForm input{
+        width: 50%;
+    }
+}
