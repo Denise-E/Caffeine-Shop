@@ -1,9 +1,38 @@
 [
     {
         "id": 1,
-        "name": "xxxxx",
-         "type": "grano/capsula",
-         "intensity": "intense/medium/soft",
-         "price": 1000
+        "country": "Brasil",
+         "intensity": "alta",
+         "price": 0,
+         "img": "bolsas-cafe.jpg"
+    },
+    
+    {
+        "id": 2,
+        "country": "Colombia",
+         "intensity": "alta",
+         "price": 0,
+         "img": "bolsas-cafe.jpg"
+    },
+    {
+        "id": 3,
+        "country": "Brasil",
+         "intensity": "media",
+         "price": 0,
+         "img": "bolsas-cafe.jpg"
+    },
+    {
+        "id": 4,
+        "country": "Vietnam",
+         "intensity": "media",
+         "price": 0,
+         "img": "bolsas-cafe.jpg"
+    },
+    {
+        "id": 5,
+        "country": "Vietnam",
+         "intensity": "baja",
+         "price": 0,
+         "img": "bolsas-cafe.jpg"
     }
 ]

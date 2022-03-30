@@ -4,7 +4,14 @@
     <%- include("../partials/header")  %> 
 
     <main>
-
+        <% accesories.forEach(element => { %>
+            <article>
+                <img src="/assets/products/<%= element.img %>" alt="">
+                <h1><%= element.name %> </h1>
+                <p><%= element.description %> </p>
+                <p> $ <%= element.price %> </p>
+            </article>
+        <% }) %>
     </main>
 
     <%- include("../partials/footer")  %> 

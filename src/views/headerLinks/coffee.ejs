@@ -4,6 +4,14 @@
     <%- include("../partials/header")  %> 
 
     <main>
+            <% coffee.forEach(element => { %>
+                <article>
+                    <img src="/assets/products/<%= element.img %>" alt="">
+                    <h1>Proveniente de <%= element.country %> </h1>
+                    <p>Intensidad :<%= element.intensity %> </p>
+                    <p> $ <%= element.price %> </p>
+                </article>
+            <% }) %>
 
     </main>
 
