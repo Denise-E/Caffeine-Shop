@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#coffeeSection {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+#coffeeSection img {
+    width: 16rem;
+    height: 16rem;
+    opacity: 0.8;
+}
+
+
+
+#coffeeInfo{
+    position: relative;
+    bottom: 50%;
+}
+
+@media screen and (min-width: 851px) {
+    #coffeeSection article{
+        margin: 2rem;
+    }
+    #coffeeSection {
+        padding: 2rem;
+    }    
+    #coffeeSection img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+}

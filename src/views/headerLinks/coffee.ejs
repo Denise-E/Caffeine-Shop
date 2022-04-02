@@ -1,18 +1,22 @@
 <%- include("../partials/head")  %> 
+<link rel="stylesheet" href="/css/headerLinks/coffee.css">
 
 <body>
     <%- include("../partials/header")  %> 
 
     <main>
+        <section id="coffeeSection">
             <% coffee.forEach(element => { %>
                 <article>
                     <img src="/assets/products/<%= element.img %>" alt="">
-                    <h1>Proveniente de <%= element.country %> </h1>
-                    <p>Intensidad :<%= element.intensity %> </p>
-                    <p> $ <%= element.price %> </p>
+                    <div id="coffeeInfo">
+                        <h1>Proveniente de <%= element.country %> </h1>
+                        <p>Intensidad :<%= element.intensity %> </p>
+                        <p> $ <%= element.price %> </p>
+                    </div>
                 </article>
             <% }) %>
-
+        </section>
     </main>
 
     <%- include("../partials/footer")  %> 
