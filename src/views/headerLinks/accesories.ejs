@@ -1,17 +1,22 @@
 <%- include("../partials/head")  %> 
+<link rel="stylesheet" href="/css/headerLinks/accesories.css">
 
 <body>
     <%- include("../partials/header")  %> 
 
     <main>
-        <% accesories.forEach(element => { %>
-            <article>
-                <img src="/assets/products/<%= element.img %>" alt="">
-                <h1><%= element.name %> </h1>
-                <p><%= element.description %> </p>
-                <p> $ <%= element.price %> </p>
-            </article>
-        <% }) %>
+        <section id="accesoriesSection">
+            <% accesories.forEach(element => { %>
+                <article>
+                    <img src="/assets/products/<%= element.img %>" alt="">
+                    <div id="accesoriesInfo">
+                        <h1><%= element.name %> </h1>
+                        <p><%= element.description %> </p>
+                        <p> $ <%= element.price %> </p>
+                    </div>
+                </article>
+            <% }) %>
+    </section>
     </main>
 
     <%- include("../partials/footer")  %> 

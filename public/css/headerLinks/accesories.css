@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#accesoriesSection {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+#accesoriesSection article{
+    border: 2px solid #9e6b62;
+    margin: 1rem;
+}
+#accesoriesSection img {
+    width: 16rem;
+    height: 16rem;
+    
+}
+
+#accesoriesInfo{
+    width: 20rem;
+    height: auto;
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 851px) {
+    #accesoriesSection article{
+        margin: 2rem;
+    }
+    #accesoriesSection {
+        padding: 2rem;
+    }    
+    #accesoriesSection img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+}
