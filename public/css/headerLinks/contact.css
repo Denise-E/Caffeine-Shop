@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#contactSection{
+    padding: 1rem;
+}
+
+#contactTitle{
+    text-align: center;
+    padding: 1rem 1rem 2rem 1rem;
+    color: #9e6b62;
+}
+
+.contactInfo{
+text-align: center;
+padding: 0 1rem 1rem 1rem;
+}
+
+@media screen and (min-width: 450px){
+    #contactSection{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 623px){
+    #contactSection{
+        padding: 2rem;
+    }
+    #contactTitle{
+        padding: 1rem 1rem 3rem 1rem;
+    }
+}
+
+@media screen and (min-width: 854px){
+    #contactSection{
+        padding: 3rem;
+    }
+    #contactTitle{
+        padding: 1rem 1rem 4rem 1rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    #contactSection{
+        padding: 7;
+    }
+    #contactTitle{
+        padding: 1rem 1rem 5rem 1rem;
+    }
+}
