@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#paymentSection{
+    padding: 1rem;
+}
+
+#paymentTitle{
+    text-align: center;
+    padding: 1rem 1rem 2rem 1rem;
+    color: #9e6b62;
+}
+
+#paymentInfo{
+text-align: center;
+padding: 0 1rem 1rem 1rem;
+}
+
+@media screen and (min-width: 450px){
+    #paymentSection{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 623px){
+    #paymentSection{
+        padding: 2rem;
+    }
+    #paymentTitle{
+        padding: 1rem 1rem 3rem 1rem;
+    }
+}
+
+@media screen and (min-width: 854px){
+    #paymentSection{
+        padding: 3rem;
+    }
+    #paymentTitle{
+        padding: 1rem 1rem 4rem 1rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    #paymentSection{
+        padding: 5;
+        margin-bottom: 4.5rem;
+    }
+    #paymentTitle{
+        padding: 1rem 1rem 3rem 1rem;
+    }
+}
