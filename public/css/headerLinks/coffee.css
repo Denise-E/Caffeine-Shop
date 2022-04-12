@@ -15,7 +15,6 @@
 #coffeeSection img {
     width: 16rem;
     height: 16rem;
-    opacity: 0.8;
 }
 
 
@@ -23,6 +22,7 @@
 #coffeeInfo{
     position: relative;
     bottom: 50%;
+    color: #fff;
 }
 
 @media screen and (min-width: 851px) {

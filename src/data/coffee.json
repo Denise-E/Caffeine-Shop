@@ -4,7 +4,7 @@
         "country": "Brasil",
          "intensity": "alta",
          "price": 0,
-         "img": "bolsas-cafe.jpg"
+         "img": "coffee-highintensity.jpeg"
     },
     
     {
@@ -12,27 +12,27 @@
         "country": "Colombia",
          "intensity": "alta",
          "price": 0,
-         "img": "bolsas-cafe.jpg"
+         "img": "coffee-highintensity.jpeg"
     },
     {
         "id": 3,
         "country": "Brasil",
          "intensity": "media",
          "price": 0,
-         "img": "bolsas-cafe.jpg"
+         "img": "coffee-mediumintensity.jpg"
     },
     {
         "id": 4,
         "country": "Vietnam",
          "intensity": "media",
          "price": 0,
-         "img": "bolsas-cafe.jpg"
+         "img": "coffee-mediumintensity.jpg"
     },
     {
         "id": 5,
         "country": "Vietnam",
          "intensity": "baja",
          "price": 0,
-         "img": "bolsas-cafe.jpg"
+         "img": "coffee-lowintensity.jpg"
     }
 ]
