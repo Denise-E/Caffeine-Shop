@@ -4,8 +4,8 @@
         "product": "taza",
         "name": "Tazas blanca",
         "quantity": 6,
-        "description": "Juego de 6 tazas blancas con platos.",
-        "img": "##############################",
+        "description": "Juego de 4 tazas blancas con platos de madera.",
+        "img": "tazas-blancas.png",
         "price" : 0
     },
     {
@@ -13,21 +13,12 @@
         "product": "taza",
         "name": "Tazas blanca y negra",
         "quantity": 6,
-        "description": "Juego de 6 tazas blancas con dise;o negro con platos.",
+        "description": "Juego de 6 tazas blancas con diseño negro con platos.",
         "img": "tazas-blancoynegro.jpg",
         "price" : 0
     },
     {
         "id": 3,
-        "product": "taza",
-        "name": "Tazas negra con diseño",
-        "quantity": 6,
-        "description": "Juego de 6 tazas negras con diseño con platos.",
-        "img": "#########################",
-        "price" : 0
-    },
-    {
-        "id": 4,
         "product": "taza",
         "name": "Tazas negra",
         "quantity": 6,
@@ -36,16 +27,16 @@
         "price" : 0
     },
     {
-        "id": 5,
+        "id": 4,
         "product": "taza",
         "name": "Tazas trasnparentes",
         "quantity": 6,
-        "description": "Juego de 6 tazas trasnparentes con platos.",
-        "img": "#########################",
+        "description": "Juego de 6 tazas y platos trasnparentes",
+        "img": "tazas-transparentes.jpg",
         "price" : 0
     },
     {
-        "id": 6,
+        "id": 5,
         "product": "taza",
         "name": "Tazas transparentes",
         "quantity": 6,
@@ -54,7 +45,16 @@
         "price" : 0
     },
     {
-        "id": 7,
+        "id": 5,
+        "product": "taza",
+        "name": "Tazas negras y blancas",
+        "quantity": 6,
+        "description": "Juego de 6 tazas y platos negros y blanco",
+        "img": "tazas-negrayblanca.jpg",
+        "price" : 0
+    },
+    {
+        "id": 6,
         "product": "molinillo",
         "name": "Molinillo de cafe manual",
         "quantity": 1,
@@ -63,7 +63,7 @@
         "price" : 0
     },
     {
-        "id": 8,
+        "id": 7,
         "product": "cafetera",
         "name": "Cafetera",
         "quantity": 1,
@@ -72,7 +72,7 @@
         "price" : 0
     },
     {
-        "id": 9,
+        "id": 8,
         "product": "filtros",
         "name": "Filtros de café",
         "quantity": 60,
