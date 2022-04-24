@@ -37,6 +37,10 @@ main{
     text-decoration: none;
 }
 
+#bottomHome article:hover{
+    transform: scale(1.1,1.1);
+}
+
 #bottomHome h5{
    text-align: center;
    position: relative;
