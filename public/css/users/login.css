@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+main{
+	font-family: 'Montserrat', sans-serif;
+}
+
 #loginForm{
     text-align: center;
     margin: 1rem 1rem 3rem 1rem;
