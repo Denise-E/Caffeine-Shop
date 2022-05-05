@@ -6,4 +6,4 @@ module.exports = {
     login: (req, res) => res.render('users/login', {
         styles: ['users/login']
     })
-}
+} 

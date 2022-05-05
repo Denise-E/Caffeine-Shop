@@ -7,7 +7,9 @@
         <section id="topHome">
             <iframe src="url" title="description"></iframe>
             <iframe src="https://www.w3schools.com"></iframe>
-            <h2>Bienvenido a Caffeine Shop 'nombreDeUsuaio' !</h2>
+            <% if (user) { %>
+                <h1>Bienvenido <%= user.displayName %> </h1>
+            <% } %>
             <p>
                 Esta pagina creada por amantes del café busca ayudarte a encontrar todo lo necesario para que puedas disfrutar 
                 de los mejores cafés desde la comodidad de tu casa. 
