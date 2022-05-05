@@ -8,8 +8,15 @@
             <a href="/products/accesories">Accesorios</a>
             <a href="/contact">Contacto</a>
     </nav>
+    <% if (user) { %>
+        <nav>
+            <a href="/users/logout">Logut</a>
+        </nav>
+    <% }else { %>
+     
     <nav id="bottomNavHeader"> 
         <a href="/users/register">Crear cuenta</a>
         <a href="/users/login">Iniciar sesión</a>
     </nav>
+    <% } %>
 </header>

@@ -5,5 +5,9 @@ module.exports = {
     }),
     login: (req, res) => res.render('users/login', {
         styles: ['users/login']
-    })
+    }),
+    logout: (req,res) => {
+        req.logout();
+        return res.redirect('/');
+    }
 } 
