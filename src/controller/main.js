@@ -1,9 +1,15 @@
 
 module.exports = {
-    index: (req,res) => res.render("home",{
-     
+    index: (req,res) => {
+        /*
+        if(req.user){
+            return res.send(req.user)
+        } */
+        return res.render("home",{
         styles: "main/home"
-    }),
+        })
+        
+    },
     contact: (req,res) => res.render("headerLinks/contact",{
      
         styles: "headerLinks/contact"
