@@ -14,7 +14,7 @@
          "category": "marcadores",
          "price": 1000,
          "description": "",
-         "img": "marcadores_fibercastell.jpg"
+         "img": ["marcadores_fibercastell.jpg"]
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
          "category": "lápices",
          "price": 1000,
          "description": "",
-         "img": "lapices_fiberCastelle_fluo,jpg"
+         "img": ["lapices_fiberCastelle_fluo.jpg"]
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
          "category": "cartucheras",
          "price": 1000,
          "description": "",
-         "img": "cartuchera_tubo_pastel.jpg"
+         "img": ["cartuchera_tubo_pastel.jpg"]
     },
     {
         "id": 5,
@@ -48,7 +48,7 @@
          "color": ["azul", "celeste"],
          "price": 1000,
          "description": "",
-         "img": ["abrochadora_mini_celeste.jpg","abrochadora_mini_azul.jpg"]
+         "img": ["abrochadora_mini_roja.jpg","abrochadora_mini_azul.jpg"]
     },
     {
         "id": 7,
@@ -56,7 +56,7 @@
          "category": "marcadores",
          "price": 1000,
          "description": "",
-         "img": "marcadores_pastel_doblepunta.jpeg"
+         "img": ["marcadores_pastel_doblepunta.jpeg"]
     },
     {
         "id": 8,
@@ -64,6 +64,6 @@
          "category": "lápices",
          "price": 1000,
          "description": "",
-         "img": "lapices_fiberCastelle_lata,jpg"
+         "img": ["lapices_fiberCastelle_lata.jpg"]
     }
 ]
