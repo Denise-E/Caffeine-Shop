@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "Abrochadora",
+         "category": "abrochadores",
+         "price": 0,
+         "description": "",
+         "img": ""
+    },
+    
+    {
+        "id": 2,
+        "name": "Marcadores",
+         "category": "marcadores",
+         "price": 0,
+         "description": "",
+         "img": ""
+    },
+    {
+        "id": 3,
+        "name": "Lápices",
+         "category": "lápices y lapiceras",
+         "price": 0,
+         "description": "",
+         "img": ""
+    },
+    {
+        "id": 4,
+        "name": "Cartuchera",
+         "category": "carticheras",
+         "price": 0,
+         "description": "",
+         "img": ""
+    },
+    {
+        "id": 5,
+        "name": "Cuaderno",
+         "category": "cuadernos",
+         "price": 0,
+         "description": "",
+         "img": ""
+    }
+]

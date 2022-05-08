@@ -1,13 +1,12 @@
-const accesories = require('../data/accesories.json');
-const coffee = require('../data/coffee.json');
+const products = require('../data/products.json');
 
 module.exports = {
-    coffee: (req, res) => res.render('headerLinks/coffee',{
-        coffee: coffee,
-        styles: ['headerLinks/coffee']
+    categories: (req,res) => res.render('headerLinks/categories', {
+        products: products,
+        styles: 'categories'
     }),
-    accesories: (req, res) => res.render('headerLinks/accesories',{
-        accesories: accesories,
-        styles: ['headerLinks/accesories']
+    products: (req,res) => res.render('headerLinks/products', {
+        products: products,
+        styles: 'products'
     })
 }

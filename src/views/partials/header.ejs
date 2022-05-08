@@ -4,9 +4,27 @@
         <img src="/assets/logo.png" alt="Logo Caffeine Shop" id="logoHeader">
     </a>
     <nav id="topNavHeader">
-            <a href="/products/coffee">Café</a>
-            <a href="/products/accesories">Accesorios</a>
-            <a href="/contact">Contacto</a>
+            <section>
+                <form action="#" method="post">
+                    <fieldset>
+                        <input type="search" name="search" id="search">
+                        <button type="submit"><i class="fas-fa-solid fa-magnifying-glass"></i></button>
+                        <!--<i class="fas fa-search">-->
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <select name="products" id="products">
+                    <a href=""><option value="#">Nuestros Productos</option></a>
+                    <a href=""><option value="#">Abrochadoras</option></a>
+                    <a href=""><option value="#">Marcadores</option></a>
+                    <a href=""><option value="#">Lápices y lapiceras</option></a>
+                    <a href=""><option value="#">Cartucheras</option></a>
+                    <a href=""><option value="#">Cuadernos</option></a>
+                </select>
+                <a href="/contact">Contacto</a>
+            </section>
+            
     </nav>
     <% if (user) { %>
         <nav>

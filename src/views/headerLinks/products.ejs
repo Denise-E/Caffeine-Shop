@@ -1,12 +1,12 @@
 <%- include("../partials/head")  %> 
-<link rel="stylesheet" href="/css/headerLinks/accesories.css">
+<link rel="stylesheet" href="/css/headerLinks/products.css">
 
 <body>
     <%- include("../partials/header")  %> 
 
     <main>
         <section id="accesoriesSection">
-            <% accesories.forEach(element => { %>
+            <% products.forEach(element => { %>
                 <article>
                     <img src="/assets/products/<%= element.img %>" alt="">
                     <div id="accesoriesInfo">
