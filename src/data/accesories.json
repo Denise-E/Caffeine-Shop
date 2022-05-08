@@ -5,7 +5,7 @@
         "name": "Tazas blanca",
         "quantity": 6,
         "description": "Juego de 4 tazas blancas con platos de madera.",
-        "img": "tazas-blancas.png",
+        "img": "",
         "price" : 0
     },
     {
@@ -14,7 +14,7 @@
         "name": "Tazas blanca y negra",
         "quantity": 6,
         "description": "Juego de 6 tazas blancas con diseño negro con platos.",
-        "img": "tazas-blancoynegro.jpg",
+        "img": "",
         "price" : 0
     },
     {
@@ -23,7 +23,7 @@
         "name": "Tazas negra",
         "quantity": 6,
         "description": "Juego de 6 tazas negras con platos blancos.",
-        "img": "tazas-negras.jpg",
+        "img": "",
         "price" : 0
     },
     {
@@ -32,7 +32,7 @@
         "name": "Tazas trasnparentes",
         "quantity": 6,
         "description": "Juego de 6 tazas y platos trasnparentes",
-        "img": "tazas-transparentes.jpg",
+        "img": "",
         "price" : 0
     },
     {
@@ -41,7 +41,7 @@
         "name": "Tazas transparentes",
         "quantity": 6,
         "description": "Juego de 6 tazas trasnparentes con platos de madera.",
-        "img": "tazas-transparentes2.jpg",
+        "img": "",
         "price" : 0
     },
     {
@@ -50,7 +50,7 @@
         "name": "Tazas negras y blancas",
         "quantity": 6,
         "description": "Juego de 6 tazas y platos negros y blanco",
-        "img": "tazas-negrayblanca.jpg",
+        "img": "",
         "price" : 0
     },
     {
@@ -59,7 +59,7 @@
         "name": "Molinillo de cafe manual",
         "quantity": 1,
         "description": "Molinillo de acero inoxidable para moler café en grano de forma manual.",
-        "img": "molino-cafe-manual.jpg",
+        "img": "",
         "price" : 0
     },
     {
@@ -68,7 +68,7 @@
         "name": "Cafetera",
         "quantity": 1,
         "description": "Cafetera de filtro por goteo de 1.8 litros.",
-        "img": "cafetera-filtro-por-goteo.jpg",
+        "img": "",
         "price" : 0
     },
     {
@@ -77,7 +77,7 @@
         "name": "Filtros de café",
         "quantity": 60,
         "description": "60 filtros de papel para cafetera.",
-        "img": "filtros-cafe.jpg",
+        "img": "",
         "price" : 0
     }
 ]

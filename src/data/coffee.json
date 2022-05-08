@@ -4,7 +4,7 @@
         "country": "Brasil",
          "intensity": "alta",
          "price": 0,
-         "img": "coffee-highintensity.jpeg"
+         "img": ""
     },
     
     {
@@ -12,27 +12,27 @@
         "country": "Colombia",
          "intensity": "alta",
          "price": 0,
-         "img": "coffee-highintensity.jpeg"
+         "img": ""
     },
     {
         "id": 3,
         "country": "Brasil",
          "intensity": "media",
          "price": 0,
-         "img": "coffee-mediumintensity.jpg"
+         "img": ""
     },
     {
         "id": 4,
         "country": "Vietnam",
          "intensity": "media",
          "price": 0,
-         "img": "coffee-mediumintensity.jpg"
+         "img": ""
     },
     {
         "id": 5,
         "country": "Vietnam",
          "intensity": "baja",
          "price": 0,
-         "img": "coffee-lowintensity.jpg"
+         "img": ""
     }
 ]
