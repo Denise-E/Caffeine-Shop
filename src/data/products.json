@@ -1,43 +1,69 @@
 [
     {
         "id": 1,
-        "name": "Abrochadora",
-         "category": "abrochadores",
+        "name": "Abrochadora mini Mapped N° 10",
+         "category": "abrochadoras",
+         "color": ["azul", "rojo"],
          "price": 0,
          "description": "",
-         "img": ""
+         "img": ["abrochadora_mini_azul.jpg","abrochadora_mini_roja.jpg"]
     },
-    
     {
         "id": 2,
-        "name": "Marcadores",
+        "name": "Set marcadores FiberCatell",
          "category": "marcadores",
          "price": 0,
          "description": "",
-         "img": ""
+         "img": "marcadores_fibercastell.jpg"
     },
     {
         "id": 3,
-        "name": "Lápices",
-         "category": "lápices y lapiceras",
+        "name": "Lápices FiberCastelle color + 6 fluo",
+         "category": "lápices",
          "price": 0,
          "description": "",
-         "img": ""
+         "img": "lapices_fiberCastelle_fluo,jpg"
     },
     {
         "id": 4,
-        "name": "Cartuchera",
-         "category": "carticheras",
+        "name": "Cartuchera Tubo pastel",
+         "category": "cartucheras",
          "price": 0,
          "description": "",
-         "img": ""
+         "img": "cartuchera_tubo_pastel.jpg"
     },
     {
         "id": 5,
-        "name": "Cuaderno",
+        "name": "Cuaderno A5 16x21cm 46 hojas",
          "category": "cuadernos",
+         "type": ["rallado","cuadriculado"],
          "price": 0,
          "description": "",
-         "img": ""
+         "img": ["cuaderno-avon-a5.jpg", "cuaderno-avon-a5_x4.jpg"]
+    },
+    {
+        "id": 6,
+        "name": "Abrochadora MIT ",
+         "category": "abrochadoras",
+         "color": ["azul", "celeste"],
+         "price": 0,
+         "description": "",
+         "img": ["abrochadora_mini_celeste.jpg","abrochadora_mini_azul.jpg"]
+    },
+    {
+        "id": 7,
+        "name": "Set marcadores pastel",
+         "category": "marcadores",
+         "price": 0,
+         "description": "",
+         "img": "marcadores_pastel_doblepunta.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Lata de 24 lapices FiberCastelle",
+         "category": "lápices",
+         "price": 0,
+         "description": "",
+         "img": "lapices_fiberCastelle_lata,jpg"
     }
 ]
