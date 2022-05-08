@@ -1,12 +1,10 @@
+const products = require('../data/products.json')
 
 module.exports = {
     index: (req,res) => {
-        /*
-        if(req.user){
-            return res.send(req.user)
-        } */
         return res.render("home",{
-        styles: "main/home"
+            products: products,
+            styles: "main/home"
         })
         
     },

@@ -5,30 +5,21 @@
     <%- include("./partials/header")  %> 
     <main>
         <section id="topHome">
-            <iframe src="url" title="description"></iframe>
-            <iframe src="https://www.w3schools.com"></iframe>
             <% if (user) { %>
                 <h1>Bienvenido <%= user.displayName %> </h1>
             <% } %>
-            <p>
-                Esta pagina creada por amantes del café busca ayudarte a encontrar todo lo necesario para que puedas disfrutar 
-                de los mejores cafés desde la comodidad de tu casa. 
-            </p>
         </section>
     
         <section id="bottomHome">
-            <a href="/products/coffee">
-                <article>
-                        <h5>Nuestros cafés</h5>
-                        <img src="../assets/home/home-coffee.jpg" alt="Nuestros cafés">
-                </article> 
-            </a>
-            <a href="/products/accesories">
-                <article>
-                        <h5>Accesorios</h5>
-                        <img src="../assets/home/home-accesories.jpg" alt="Accesorios">
-                </article> 
-            </a>
+            <% products.forEach(element => { %>
+                <a href="/products/<%= element.id %> ">
+                    <article>
+                            <h5><%= element.name %> </h5>
+                            <img src="/assets/products/<%= element.img[0] %> " alt="Imagen <%= element.name %> ">
+                    </article> 
+                </a>
+            <% }) %>
+            
         </section>
     </main>
 
