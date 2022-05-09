@@ -11,12 +11,47 @@
 #contactTitle{
     text-align: center;
     padding: 1rem 1rem 2rem 1rem;
-    color: #9e6b62;
+    color: #C8105F;;
 }
 
 .contactInfo{
-text-align: center;
-padding: 0 1rem 1rem 1rem;
+    text-align: center;
+    padding: 0 1rem 1rem 1rem;
+}
+
+#contactSection form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0rem 2rem;
+}
+
+#contactSection form fieldset {
+    border: solid 2px #C8105F;
+    padding: 1rem;
+}
+#contactSection form label{
+    padding: 0.5rem 0;
+    display: block;
+    width: 100%;
+}
+
+#contactSection form input, #contactSection form  textarea{
+    border: solid 1px #000;
+}
+
+#contactSection form input{
+    width: 12rem;
+}
+
+#contactSection form button{
+    width: 40%;
+    border: none;
+    color: #fff;
+    background-color: #C8105F;
+    margin-top: 2rem;
+    padding: .5rem;
+    border-radius: 8px;
 }
 
 @media screen and (min-width: 450px){
@@ -26,8 +61,9 @@ padding: 0 1rem 1rem 1rem;
 }
 
 @media screen and (min-width: 623px){
-    #contactSection{
-        padding: 2rem;
+    #contactSection form fieldset {
+        border: solid 2px #C8105F;
+        width: 70%;
     }
     #contactTitle{
         padding: 1rem 1rem 3rem 1rem;
@@ -37,6 +73,9 @@ padding: 0 1rem 1rem 1rem;
 @media screen and (min-width: 854px){
     #contactSection{
         padding: 3rem;
+    }
+    #contactSection form button{
+        width: 20%;
     }
     #contactTitle{
         padding: 1rem 1rem 4rem 1rem;

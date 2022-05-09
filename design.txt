@@ -1,3 +1,3 @@
 Colors : 
-- Red #FF434 // #C8105F;
+- Red #C8105F;
 - Blanco y negro.
