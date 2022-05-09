@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "name": "abrochadoras"
+        "name": "Abrochadoras"
     },
     {
         "id": 2,
-        "name": "marcadores"
+        "name": "Marcadores"
     },
     {
         "id": 3,
-        "name": "lápices"
+        "name": "Lápices"
     },
     {
         "id": 4,
-        "name": "cartucheras"
+        "name": "Cartucheras"
     },
     {
         "id": 5,
-        "name": "cuadernos"
+        "name": "Cuadernos"
     }
 ]

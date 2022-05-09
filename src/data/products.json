@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Abrochadora mini Mapped N° 10",
-         "category": "abrochadoras",
+         "category": "Abrochadoras",
          "color": ["azul", "rojo"],
          "price": 1000,
          "description": "",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Set marcadores FiberCastelle",
-         "category": "marcadores",
+         "category": "Marcadores",
          "price": 1000,
          "description": "",
          "img": ["marcadores_fibercastell.jpg"]
@@ -19,7 +19,7 @@
     {
         "id": 3,
         "name": "Lápices FiberCastelle color + 6 fluo",
-         "category": "lápices",
+         "category": "Lápices",
          "price": 1000,
          "description": "",
          "img": ["lapices_fiberCastelle_fluo.jpg"]
@@ -27,7 +27,7 @@
     {
         "id": 4,
         "name": "Cartuchera Tubo pastel",
-         "category": "cartucheras",
+         "category": "Cartucheras",
          "price": 1000,
          "description": "",
          "img": ["cartuchera_tubo_pastel.jpg"]
@@ -35,7 +35,7 @@
     {
         "id": 5,
         "name": "Cuaderno A5 16x21cm 46 hojas",
-         "category": "cuadernos",
+         "category": "Cuadernos",
          "type": ["rallado","cuadriculado"],
          "price": 1000,
          "description": "",
@@ -44,7 +44,7 @@
     {
         "id": 6,
         "name": "Abrochadora MIT ",
-         "category": "abrochadoras",
+         "category": "Abrochadoras",
          "color": ["azul", "celeste"],
          "price": 1000,
          "description": "",
@@ -53,7 +53,7 @@
     {
         "id": 7,
         "name": "Set marcadores pastel",
-         "category": "marcadores",
+         "category": "Marcadores",
          "price": 1000,
          "description": "",
          "img": ["marcadores_pastel_doblepunta.jpeg"]
@@ -61,7 +61,7 @@
     {
         "id": 8,
         "name": "Lata de 24 lapices FiberCastelle",
-         "category": "lápices",
+         "category": "Lápices",
          "price": 1000,
          "description": "",
          "img": ["lapices_fiberCastelle_lata.jpg"]
