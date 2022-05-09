@@ -9,5 +9,12 @@ module.exports = {
             products: products,
             styles: 'categories'
         })
+    },
+    products: (req,res) => {
+        let result = products.find(element => element.id == req.params.id);
+        res.render('products', {
+            product: result,
+            styles: 'products'
+        })
     }
 }
