@@ -5,18 +5,23 @@
     <%- include("../partials/header")  %> 
 
     <main>
-        <section id="coffeeSection">
-            <% products.forEach(element => { %>
-                <article>
-                    <img src="/assets/products/<%= element.img %>" alt="">
-                    <div id="coffeeInfo">
-                        <h1>Proveniente de <%= element.country %> </h1>
-                        <p>Intensidad :<%= element.intensity %> </p>
-                        <p> $ <%= element.price %> </p>
-                    </div>
-                </article>
-            <% }) %>
-        </section>
+        <% if (category) { %>
+            <section id="coffeeSection">
+                <h1>Categoría : <%= category.name %> </h1>
+                <% for( let index = 0; index < products.length; index++ ) { %>
+                    <% if (category.name == products[index].category) { %>
+                        <article>
+                        <img src="/assets/products/<%= products[index].img[0] %>" alt="<%= products[index].name %> ">
+                            <h1><%= products[index].name %> </h1>
+                            <p>$ <%= products[index].price %> </p>
+                        </article>
+                    <% } %>
+                <% } %>
+                
+            </section>
+         <% } else { %>
+                <p> No existe la categoría buscada</p>
+            <% } %>
     </main>
 
     <%- include("../partials/footer")  %> 
