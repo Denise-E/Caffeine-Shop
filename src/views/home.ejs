@@ -12,12 +12,13 @@
     
         <section id="bottomHome">
             <% products.forEach(element => { %>
-                <a href="/products/<%= element.id %> ">
                     <article>
+                        <a href="/products/<%= element.id %> ">
                             <h5><%= element.name %> </h5>
                             <img src="/assets/products/<%= element.img[0] %> " alt="Imagen <%= element.name %> ">
+                        </a> 
                     </article> 
-                </a>
+                
             <% }) %>
             
         </section>
