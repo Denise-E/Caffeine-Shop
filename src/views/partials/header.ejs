@@ -1,26 +1,25 @@
 <link rel="stylesheet" href="../../../public/partials/header.css">
 <header>
     <a href="/">
-        <img src="/assets/logo.png" alt="Logo Caffeine Shop" id="logoHeader">
+        <img src="/assets/logo.png" alt="Logo Strat library" id="logoHeader">
     </a>
     <nav id="topNavHeader">
             <section>
                 <form action="#" method="post">
                     <fieldset>
                         <input type="search" name="search" id="search">
-                        <button type="submit"><i class="fas-fa-solid fa-magnifying-glass"></i></button>
-                        <!--<i class="fas fa-search">-->
+                        <button type="submit"><i class="fas fa-search"></i></button>
                     </fieldset>
                 </form>
             </section>
             <section>
-                <select name="products" id="products">
-                    <a href=""><option value="#">Nuestros Productos</option></a>
-                    <a href=""><option value="#">Abrochadoras</option></a>
-                    <a href=""><option value="#">Marcadores</option></a>
-                    <a href=""><option value="#">Lápices</option></a>
-                    <a href=""><option value="#">Cartucheras</option></a>
-                    <a href=""><option value="#">Cuadernos</option></a>
+                <select name="products" id="products" onchange="window.location.href=this.options[this.options.selectedIndex].value" >
+                    <option value="#">Nuestros Productos</option>
+                    <option value="/products/categories/1">Abrochadoras</option>
+                    <option value="/products/categories/2">Marcadores</option>
+                    <option value="/products/categories/3">Lápices</option>
+                    <option value="/products/categories/4">Cartucheras</option>
+                    <option value="/products/categories/5">Cuadernos</option>
                 </select>
                 <a href="/contact">Contacto</a>
             </section>

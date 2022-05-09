@@ -10,7 +10,7 @@ header {
     justify-content: space-around;
     align-items: center;
     font-size: 16px;
-    border-bottom: solid 2px #9e6b62;
+    border-bottom: solid 2px #C8105F;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -21,13 +21,36 @@ header {
 
 #topNavHeader a{
     text-decoration: none;
-    color: #70281C;
+    color: #000;
     margin: 0.5rem;
+}
+
+#topNavHeader fieldset{
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+#topNavHeader fieldset input{
+    width: 90%;
+}
+
+#topNavHeader fieldset button{
+    width: 10%;
+    background-color: #fff;
+    color: #C8105F;
+    border: none;
+}
+
+#topNavHeader select{
+    border: none;
+    font-size: 15px;
 }
 
 #bottomNavHeader a{
     text-decoration: none;
-    color: #70281C;
+    color: #000;
     margin: 0.5rem;
 }
 #bottomNavHeader{

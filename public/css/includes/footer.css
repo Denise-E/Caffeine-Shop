@@ -6,8 +6,8 @@
 
 footer{
     font-size: 14px;
-    color: #70281C;
-    border: solid 2px #9e6b62;
+    border: solid 2px #C8105F;
+    border-bottom: 0;
     width: 100%;
     font-family: 'Raleway', sans-serif;
 }
@@ -21,19 +21,20 @@ footer nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #9e6b62;
+    background-color: #C8105F;
 }
 
 
 #footerCopyright{
     display: block;
     text-align: center;
+    color: #000;
 }
 
 div a {
     display: block;
     text-decoration: none;
-    color: #70281C;
+    color: #fff;
     margin: 1.5rem;
 }
 
@@ -45,7 +46,7 @@ div a {
         margin-left: 1.7rem;
     }   
     #footerCopyright{
-      padding-top: 1rem;
+      padding: 1rem 0 0.5rem;
       margin-right: 3.2rem;
     }
 }
