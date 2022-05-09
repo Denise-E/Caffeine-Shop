@@ -6,8 +6,9 @@
 
     <main>
         <% if (category) { %>
-            <section id="coffeeSection">
-                <h1>Categoría : <%= category.name %> </h1>
+            <h1 id="categoryTitle"><%= category.name %> </h1>
+            <section id="categorieSection">
+                
                 <% for( let index = 0; index < products.length; index++ ) { %>
                     <% if (category.name == products[index].category) { %>
                         <article>

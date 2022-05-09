@@ -4,37 +4,70 @@
     margin: 0;
 }
 
-#coffeeSection {
-    display: flex;
+#categoryTitle{
     text-align: center;
+    padding: 1rem;
+}
+
+#categorieSection{
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 2rem;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
 
-#coffeeSection img {
-    width: 16rem;
-    height: 16rem;
+#categorieSection article{
+    border: solid 1px #000;
+    width: 80%;
+    height: auto;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+#categorieSection article:hover{
+    transform: scale(1.05,1.05);
+}
+
+#categorieSection img{
+    width: 100%;
+    height: auto;
+}
+
+#categorieSection a{
+    text-decoration: none;
+    width: auto;
 }
 
 
-
-#coffeeInfo{
-    position: relative;
-    bottom: 50%;
-    color: #fff;
-}
-
-@media screen and (min-width: 851px) {
-    #coffeeSection article{
-        margin: 2rem;
+@media screen and (min-width: 485px) {
+    #categorieSection{
+        justify-content: row;
+    } 
+    #categorieSection article{
+        width: 40%;
+        height: auto;
+        margin: 1rem .5rem;
     }
-    #coffeeSection {
-        padding: 2rem;
-    }    
-    #coffeeSection img {
-        width: 20rem;
-        height: 20rem;
+    #categorieSection{
+        margin-bottom: 3.5rem;
     }
+}
 
+@media screen and (min-width: 650px){
+    #categorieSection article{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    
+    #categorieSection{
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 850px){
+    #categorieSection article{
+        width: 25%;
+    }
 }

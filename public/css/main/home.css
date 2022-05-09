@@ -84,9 +84,6 @@ main{
     #bottomHome{
         margin-bottom: 4rem;
     }
-    #homeBanner{
-        height: 14rem;
-    }
 }
 
 @media screen and (min-width: 850px){
