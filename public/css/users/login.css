@@ -25,16 +25,24 @@ main{
 #loginForm label {
     display: block;
     padding: 1rem;
-    color: #70281C;
+    font-weight: bold;
 }
 
 #userId, #password{
     width: 70%;
     padding: 0.25rem;
     border-radius: 8px;
-    border: 1px solid #9e6b62;
+    border: 1px solid #C8105F;
 }
 
+#google{
+    text-decoration: none;
+    color: #C8105F;
+    font-weight: bold;
+    border: solid 1px #C8105F;
+    border-radius: 8px;
+    padding: .5rem;
+}
 
 @media screen and (min-width: 581px) {
     #userId, #password{

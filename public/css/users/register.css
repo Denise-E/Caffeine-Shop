@@ -24,14 +24,14 @@ main{
 #registerForm label {
     display: block;
     padding: 1rem;
-    color: #70281C;
+    font-weight: bold;
 }
 
 #registerForm input{
     width: 90%;
     padding: 0.25rem;
     border-radius: 8px;
-    border: 1px solid #9e6b62;
+    border: 1px solid #C8105F;
 }
 
 
