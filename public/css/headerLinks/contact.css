@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+main{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
 #contactSection{
     padding: 1rem;
 }

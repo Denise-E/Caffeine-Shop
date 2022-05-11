@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+main{
+	font-family: 'Roboto Flex', sans-serif;
+}
+
 #categoryTitle{
     text-align: center;
     padding: 1rem;
