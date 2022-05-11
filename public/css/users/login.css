@@ -33,6 +33,24 @@ main{
     border: 2px solid #C8105F;
 }
 
+#loginForm button{
+    width: 40%;
+    border: none;
+    color: #fff;
+    background-color: #C8105F;
+    margin: 2rem 0;
+    padding: .5rem;
+    border-radius: 8px;
+}
+
+#loginForm button:hover{
+    color: #C8105F;
+    font-weight: bold;
+    transform: scale(1.05,1.05);
+    background-color: #fff;
+}
+
+
 #userId, #password{
     width: 70%;
     padding: 0.25rem;
@@ -62,5 +80,8 @@ main{
 @media screen and (min-width: 768px) {
     #userId, #password{
         width: 50%;
+    }
+    #loginForm button{
+        width: 20%;
     }
 }

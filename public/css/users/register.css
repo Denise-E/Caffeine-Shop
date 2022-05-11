@@ -40,6 +40,25 @@ main{
 }
 
 
+#registerForm button{
+    width: 40%;
+    border: none;
+    color: #fff;
+    background-color: #C8105F;
+    margin-top: 2rem;
+    padding: .5rem;
+    border-radius: 8px;
+}
+
+#registerForm button:hover{
+    color: #C8105F;
+    font-weight: bold;
+    transform: scale(1.05,1.05);
+    background-color: #fff;
+}
+
+
+
 @media screen and (min-width: 581px) {
     #registerForm input{
         width: 70%;
@@ -50,5 +69,8 @@ main{
 @media screen and (min-width: 768px) {
     #registerForm input{
         width: 50%;
+    }   
+    #registerForm button{
+        width: 20%;
     }
 }
