@@ -25,6 +25,11 @@ header {
     margin: 0.5rem;
 }
 
+#topNavHeader a:hover{
+    color: #C8105F;
+    font-weight: bold;
+}
+
 #topNavHeader fieldset{
     border: none;
     display: flex;
@@ -53,6 +58,12 @@ header {
     color: #000;
     margin: 0.5rem;
 }
+
+#bottomNavHeader a:hover{
+    color: #C8105F;
+    font-weight: bold;
+}
+
 #bottomNavHeader{
     padding: 0.75rem 0;
 }

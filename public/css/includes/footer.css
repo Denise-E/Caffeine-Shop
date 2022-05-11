@@ -38,6 +38,11 @@ div a {
     margin: 1.5rem;
 }
 
+div a:hover{
+    color: #000;
+    font-weight: bold;
+}
+
 @media screen and (min-width: 461px) {
     #logoFooter{
         display: flex;

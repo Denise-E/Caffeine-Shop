@@ -35,6 +35,11 @@ main{
     border: solid 2px #C8105F;
     padding: 1rem;
 }
+
+#contactSection form fieldset:hover{
+   box-shadow: 1px 1px 5px 1px rgb(172, 169, 169); 
+}
+
 #contactSection form label{
     padding: 0.5rem 0;
     display: block;
@@ -44,10 +49,16 @@ main{
 
 #contactSection form input, #contactSection form  textarea{
     border: solid 1px #C8105F;
+    border-radius: 6px;
 }
 
 #contactSection form input{
     width: 12rem;
+}
+
+#contactSection form input:hover, #contactSection form  textarea:hover{
+    box-shadow: 1px 1px 5px 1px rgb(172, 169, 169);
+    border: 2px solid #C8105F;
 }
 
 #contactSection form button{
@@ -58,6 +69,13 @@ main{
     margin-top: 2rem;
     padding: .5rem;
     border-radius: 8px;
+}
+
+#contactSection form button:hover{
+    color: #C8105F;
+    font-weight: bold;
+    transform: scale(1.05,1.05);
+    background-color: #fff;
 }
 
 @media screen and (min-width: 450px){
