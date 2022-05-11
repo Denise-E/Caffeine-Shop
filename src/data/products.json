@@ -26,32 +26,23 @@
     },
     {
         "id": 4,
-        "name": "Cartuchera Tubo pastel",
+        "name": "Cartuchera pastel",
          "category": "Cartucheras",
          "price": 1000,
          "description": "",
-         "img": ["cartuchera_tubo_pastel.jpg"]
+         "img": ["cartuchera_pastel.jpg"]
     },
     {
         "id": 5,
-        "name": "Cuaderno A5 16x21cm 46 hojas",
-         "category": "Cuadernos",
-         "type": ["rallado","cuadriculado"],
-         "price": 1000,
-         "description": "",
-         "img": ["cuaderno-avon-a5.jpg", "cuaderno-avon-a5_x4.jpg"]
-    },
-    {
-        "id": 6,
         "name": "Abrochadora MIT ",
          "category": "Abrochadoras",
          "color": ["azul", "celeste"],
          "price": 1000,
          "description": "",
-         "img": ["abrochadora_mini_roja.jpg","abrochadora_mini_azul.jpg"]
+         "img": ["abrochadora_mit_celeste.jpg","abrochadora_mit_azul.jpg"]
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "Set marcadores pastel",
          "category": "Marcadores",
          "price": 1000,
@@ -59,11 +50,21 @@
          "img": ["marcadores_pastel_doblepunta.jpeg"]
     },
     {
-        "id": 8,
+        "id": 7,
         "name": "Lata de 24 lapices FiberCastelle",
          "category": "Lápices",
          "price": 1000,
          "description": "",
          "img": ["lapices_fiberCastelle_lata.jpg"]
+    },
+    
+    {
+        "id": 8,
+        "name": "Cuaderno A5 16x21cm 46 hojas",
+         "category": "Cuadernos",
+         "type": ["rallado","cuadriculado"],
+         "price": 1000,
+         "description": "",
+         "img": ["cuaderno-avon-a5.jpg", "cuaderno-avon-a5_x4.jpg"]
     }
 ]
