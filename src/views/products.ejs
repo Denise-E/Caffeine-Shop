@@ -12,6 +12,8 @@
                     <img src="/assets/products/<%= product.img %>" alt="<%= product.name %>" />
                 </section>
                 <section id="infoSection">
+                    <p id="descriptionP"><%= product.description %> </p>                    
+                    <p>$ <%= product.price %> </p>
                     <% if (product.color) { %>
                         <section id="colorSection">
                             <p>Color: </p>
@@ -23,7 +25,6 @@
                         </section>
                       
                     <% } %>
-                    <p>$ <%= product.price %> </p>
                     <form action="#" method="post" id="cartForm">
                         <input type="hidden" name="id" value="<% product.id %> ">
                         <button type="submit">Agregar al carrito</button>

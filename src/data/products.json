@@ -4,32 +4,32 @@
         "name": "Abrochadora mini Mapped N° 10",
          "category": "Abrochadoras",
          "color": ["azul", "rojo"],
-         "price": 1000,
-         "description": "",
+         "price": 549,
+         "description": "La abrochadora Maped Mini Vivo es apta para broches N°10. Posee un tamaño ideal para transportar y almacenar. Profundidad del abrochado de 2.9 cm.",
          "img": ["abrochadora_mini_azul.jpg"]
     },
     {
         "id": 2,
         "name": "Set marcadores FiberCastelle",
          "category": "Marcadores",
-         "price": 1000,
-         "description": "",
+         "price": 799,
+         "description": "Marcadores escolares Faber Castell Fiesta Caras y Colores, colores brillantes, punta indeformable, capuchon aireado y no toxicos. Estuche rigido de 12 colores + 3 tonos piel.",
          "img": ["marcadores_fibercastell.jpg"]
     },
     {
         "id": 3,
         "name": "Lápices FiberCastelle color + 6 fluo",
          "category": "Lápices",
-         "price": 1000,
-         "description": "",
+         "price": 549,
+         "description": "Lápices De Colores Faber-castell Caras Y Colores X 12 + 6 color neon",
          "img": ["lapices_fiberCastelle_fluo.jpg"]
     },
     {
         "id": 4,
         "name": "Cartuchera pastel",
          "category": "Cartucheras",
-         "price": 1000,
-         "description": "",
+         "price": 3200,
+         "description": "Cartuchera lisa grande color pastel",
          "img": ["cartuchera_pastel.jpg"]
     },
     {
@@ -37,34 +37,34 @@
         "name": "Abrochadora MIT ",
          "category": "Abrochadoras",
          "color": ["azul", "celeste"],
-         "price": 1000,
-         "description": "",
+         "price": 2499,
+         "description": "Abrochadora Mit 6732 Abrochadora Pinza Metálica 50. Utiliza Broches MIT 50. Abrocha hasta 20 hojas.",
          "img": ["abrochadora_mit_celeste.jpg"]
     },
     {
         "id": 6,
         "name": "Set marcadores pastel",
          "category": "Marcadores",
-         "price": 1000,
-         "description": "",
+         "price": 5200,
+         "description": "Set de 6 Marcadores Doble Punta con punta fina en colores pastel.",
          "img": ["marcadores_pastel_doblepunta.jpeg"]
     },
     {
         "id": 7,
         "name": "Lata de 24 lapices FiberCastelle",
          "category": "Lápices",
-         "price": 1000,
-         "description": "",
+         "price": 10999,
+         "description": "Lapices polychromos en Lata X24 colores Faber Castell",
          "img": ["lapices_fiberCastelle_lata.jpg"]
     },
     
     {
         "id": 8,
-        "name": "Cuaderno A5 16x21cm 46 hojas",
+        "name": "Cuaderno universitario A4 rayado",
          "category": "Cuadernos",
          "type": ["rallado","cuadriculado"],
-         "price": 1000,
-         "description": "",
+         "price": 850,
+         "description": "Set de 4 cuadernos Universitario Oficio A4 Avon 84 hojas rayadas.",
          "img": ["cuaderno-avon-a5_x4.jpg"]
     }
 ]
