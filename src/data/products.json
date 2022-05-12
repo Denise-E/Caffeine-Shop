@@ -6,7 +6,7 @@
          "color": ["azul", "rojo"],
          "price": 1000,
          "description": "",
-         "img": ["abrochadora_mini_azul.jpg","abrochadora_mini_roja.jpg"]
+         "img": ["abrochadora_mini_azul.jpg"]
     },
     {
         "id": 2,
@@ -39,7 +39,7 @@
          "color": ["azul", "celeste"],
          "price": 1000,
          "description": "",
-         "img": ["abrochadora_mit_celeste.jpg","abrochadora_mit_azul.jpg"]
+         "img": ["abrochadora_mit_celeste.jpg"]
     },
     {
         "id": 6,
@@ -65,6 +65,6 @@
          "type": ["rallado","cuadriculado"],
          "price": 1000,
          "description": "",
-         "img": ["cuaderno-avon-a5.jpg", "cuaderno-avon-a5_x4.jpg"]
+         "img": ["cuaderno-avon-a5_x4.jpg"]
     }
 ]

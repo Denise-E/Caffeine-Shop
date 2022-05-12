@@ -1,32 +1,30 @@
 <%- include("./partials/head")  %> 
-<link rel="stylesheet" href="/css/main/products.css">
+<link rel="stylesheet" href="/css/products.css">
 
 <body>
     <%- include("./partials/header")  %> 
 
     <main>
         <% if (product) { %>
-            <article>
-                <h1><%= product.name %> </h1>
-                <section>
-                    <% if (product.img.length > 1) { %>
-                        <% for( let i = 0; i < product.img.length; i++ ) { %>
-                            <img src="/assets/products/<%= product.img[i] %>" alt="<%= product.name %>" />
-                        <% } %>
-                    <% } else { %>
-                        <img src="/assets/products/<%= product.img %>" alt="<%= product.name %>" />
-                        <% } %> 
-
+            <h1 id="productTitle"><%= product.name %> </h1>
+            <article id="productArticle">
+                <section id="imgSection">
+                    <img src="/assets/products/<%= product.img %>" alt="<%= product.name %>" />
+                </section>
+                <section id="infoSection">
                     <% if (product.color) { %>
-                        <p>color: </p>
-                        <select name="colors" id="colors">
-                            <% product.color.forEach(element => { %>
-                                <option value="<% element %>"><%= element %> </option>
-                            <% }) %>  
-                        </select>
+                        <section id="colorSection">
+                            <p>Color: </p>
+                            <select name="colors" id="colors">
+                                <% product.color.forEach(element => { %>
+                                    <option value="<% element %>"><%= element %> </option>
+                                <% }) %>  
+                            </select>
+                        </section>
+                      
                     <% } %>
                     <p>$ <%= product.price %> </p>
-                    <form action="#" method="post">
+                    <form action="#" method="post" id="cartForm">
                         <input type="hidden" name="id" value="<% product.id %> ">
                         <button type="submit">Agregar al carrito</button>
                     </form>
