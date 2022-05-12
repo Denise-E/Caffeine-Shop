@@ -8,6 +8,11 @@ main{
 	font-family: 'Roboto Flex', sans-serif;
 }
 
+#userMessage{
+    text-align: center;
+    padding: 1rem;
+}
+
 #topHome {
     text-align: center;
 }
